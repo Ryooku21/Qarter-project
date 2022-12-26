@@ -41,5 +41,8 @@ for (int i = 0; i < array.Length; i++)
         arrayResult[j++] = array[i];
 
 }
-
+Console.WriteLine("Задан исходный массив строк:");
+PrintArray(array);
+Console.WriteLine();
+Console.WriteLine("Элементы исходного массива, в которых количество символов меньше или равно 3:");
 PrintArray(arrayResult);
